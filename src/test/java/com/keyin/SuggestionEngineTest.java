@@ -60,7 +60,7 @@ public class SuggestionEngineTest {
 
         assertTrue(wordSuggestions.contains("a"), "An empty input should generate an empty string.");
     }
-/*
+
     @Test
     @DisplayName("empty input returns empty string")
     // TODO: COMMENT OUT THIS FUNCTION AS THE INPUT FAILS
@@ -74,7 +74,7 @@ public class SuggestionEngineTest {
 
         assertEquals("a", wordSuggestions, "An empty input should generate an empty string.");
     }
-*/
+
     @Test
     @DisplayName("nonexistent word returns an empty string")
     void testGenerateSuggestionsWordNotInDictionary() throws Exception {
