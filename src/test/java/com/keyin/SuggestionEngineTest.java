@@ -1,3 +1,7 @@
+// Test for SuggestionEngine Code. Software Design, Architecture and Testing - Semester 4
+// Completed by Darla Ward
+// Completed on June 6, 2023
+
 package com.keyin;
 
 import java.io.IOException;
@@ -12,7 +16,6 @@ public class SuggestionEngineTest {
     @Test
     @DisplayName("a correct word returns empty string")
     public void testGenerateSuggestionIsValid() throws Exception {
-
         SuggestionEngine engine = new SuggestionEngine();
 
         engine.loadDictionaryData(Paths.get(ClassLoader.getSystemResource("words.txt").getPath()));
